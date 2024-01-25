@@ -77,6 +77,7 @@
   </ul>
 
   <h2>Adendos...</h2>
+  <ul>
   <li>Tome cuidado com os tipos de acesso que concede aos colaboradores, jamais os permita deletar o repositório ou até mesmo excluir algum arquivo principal</li>
   <li>Ao commitar uma branch em específico, preste atenção nas etapas e evite que antecipadamente a commite no código principal</li>
   <li>Para acessar novamente algum branch existente, siga as mesmas etapas porém, pesquise o nome da branch quando acessar o repositório:</li>
@@ -85,3 +86,4 @@
 (as branchs são feitas para serem temporárias, e funcionam quase como um respawn garantindo a segurança do código)
 (deixe aberto sempre a página referente ao repositorio no GitHub, faça isso sempre que for codar)
 (quando o assunto é segurança, sempre peque pelo excesso ::))
+</ul>
