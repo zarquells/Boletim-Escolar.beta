@@ -62,19 +62,26 @@
     <br> - (opcional) Escreva uma nota dizendo quais são suas últimas alterações, a data em que foi feito e no que pode impactar 
     <br> - Verifique que arquivos serão afetados e em seguida,
     <br> - <code>Commit and Push</code>
-
-  <li>Acesse novamente o link do repositório e se for de sua responsabilidade, aprove as alterações da branch</li>
-  ![image](https://github.com/zarquells/JavaScript-Started/assets/116844017/2fa52e55-4443-4410-ad2a-58ea16cbd806)
-  <li>Se ainda for modificar o seu código criado na branch (e não for envolver códigos de outros colaboradores), 
-    sempre commite antes de fechar o VStudio já que este arquivo só existe em nuvem</li>
-  <li>Caso já tenha terminado as modificações e seu código esteja pronto p nascer, solicite ao administrador que commite a branch dentro do código principal</li>
-  <li><h3>Agora você pode excluir com confiança a branch criada!</h3></li>
-  
 </ul>
+
+  <h4>Tcharam! Suas alterações foram salvas, pode fechar o branch no VStudio com segurança</h4>
+
+  <h2>No Github...</h2>
+  <ul>
+  <li>Acesse novamente o link do repositório e abra um chamado p aprovar as alterações feitas na branch</li>
+  (https://github.com/zarquells/JavaScript-Started/assets/116844017/2fa52e55-4443-4410-ad2a-58ea16cbd806)
+  <li>Sempre abra o chamado já que estas alterações só existem por enquanto, no branch</li>
+  <li>Se ainda for modificar o seu código (e não for envolver outros colaboradores), **não abra o chamado ainda!**</li>
+  <li>Somente com o seu código prestes a nascer, que você solicita ao administrador que ele commite a branch dentro do código principal</li>
+  <li>Agora você pode excluir com confiança a branch criada!</li>
+  </ul>
 
   <h2>Adendos...</h2>
   <li>Tome cuidado com os tipos de acesso que concede aos colaboradores, jamais os permita deletar o repositório ou até mesmo excluir algum arquivo principal</li>
-  <li>Ao commitar uma branch em específico, preste atenção nas etapas e evite que logo em seguida a commite o código principal</li>
-  <li>Para acessar novamente algum branch existente, siga as mesmas etapas porém, pesquise o nome da branch quando acessar o repositório</li>
+  <li>Ao commitar uma branch em específico, preste atenção nas etapas e evite que antecipadamente a commite no código principal</li>
+  <li>Para acessar novamente algum branch existente, siga as mesmas etapas porém, pesquise o nome da branch quando acessar o repositório:</li>
+    <br> - Pesquise por <code> >Branch </code> e ache a opção escrita <code> Switch Branch </code>
+  <br>
 (as branchs são feitas para serem temporárias, e funcionam quase como um respawn garantindo a segurança do código)
 (deixe aberto sempre a página referente ao repositorio no GitHub, faça isso sempre que for codar)
+(quando o assunto é segurança, sempre peque pelo excesso ::))
