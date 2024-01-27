@@ -40,7 +40,7 @@
 <ul>
   <li>É arriscado demais fazer alterações diretamente no código principal, pois quando se trabalha com mais colaboradores o risco de surgir bugs é grande nas commitações</li>
   <li>Para isso, iremos criar um <code>branch // "galho" </code> para cada colaborador começando com você</li>
-  <li>Clique no <code>main</code> localizado no canto direito inferior </li>
+  <li>Clique no <code>main</code> localizado no canto esquerdo inferior </li>
   <li>Ou, aperte as teclas <code> Ctrl + Shift + P </code></li>
   <li>E em seguida, digite na barra do navegador:</li>
   <code> >branch </code>
