@@ -1,0 +1,25 @@
+header {
+    height: 60px;
+    margin: 0 0 52px;
+    padding: 6px 99px 5px 93px;
+    border-bottom: 0.5px solid #5aac81;
+}
+#js-icon{
+    width: 49px;
+    height: 49px;
+    margin: 1px 895px 0 0;
+}
+.Squad-Name{
+    width: 64px;
+    height: 41px;
+    margin: 4px 0 4px 895px;
+    font-family: RobotoMono;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    text-align: right;
+    color: #afe2c1;
+}

@@ -3,46 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./img/icon_project2.jpg" type="image/x-icon">
+    <title>Boletim em JS</title>
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>AAAAAAAAAA Socorro</h1>
-    <p> ----------TESTE---------- </p>
-    <h1> oi giih </h1>
-    <br>
-    <p>Sabe quanto é 2 + 2 ? <br> A resposta está no console hihi</p>
-    
-    <script>
-        let i = 2;
-        let y = i * 2;
-        alert('BOOH! AÍ');
-        // alert('A resposta é -->', y); 
-        console.log('ok, ela não apareceu onde deveria hehe. Dê uma olhada no VStudio. A resposta é ->', y);
-    </script>
-    
-    <br>
-    <p>Obrigueido masqueicddsdsdsdo!!!</p>
-    <pre>    
-         /\_____/\
-        /  o   o  \
-       ( ==  ^  == )
-        )         (
-       (           )
-      ( (  )   (  ) )
-     (__(__)___(__)__)
-            GATO   
-    </pre>
+    <header>
+        <div class="header-container">    
+            <img src="img/reference-js-icon.svg" id="js-icon">
+            <span class="squad-name font-squad-name">  <!-- span é mais fácil de manipular sem prejudicar outros elementos -->
+                Example
+              Squad
+              Name
+            </span>
+        </div>
+    </header>
+    <main>
+        <div class="main-contaneir">
+            <div class="descricao-contaneir">
+                <h1 class="descricao-title"> Descrição do <br> Projeto </h1>
+                <br>
+                <p class="descricao-text">
+                    Tabela dinâmica feita com JavaScript para <br> calcular as médias finais de 5 alunos da <br> Turma X, professor J, Matéria Y. <br>
+                    Insira os dados dinâmicos de cada aluno como <br> nome, nota p/ bimestre e faltas totais.
+                </p>
+            </div>
+            
+            <div class="cadastro-contaneir">
+                <h1 class="cadastro-title">Cadastro Turma</h1>
+                <br>
+                <form class="cadastro-input">
+                    <label for="input-turma">Nome da Turma:</label>
+                    <input type="text" id="input-turma">
+                    <br>
+                    <label for="input-professor">Professor:</label>
+                    <input type="text" id="input-professor">
+                    <br>
+                    <label for="input-UC">Un. Curricular:</label>
+                    <input type="text" id="input-UC">
+                    <br> <!-- (opcional) -->
+                    <button type="button" onclick="">Go !</button> <!-- Intenção de aparecer o nome da turma posteriormente no resultado... -->
+                </form>
+            </div>
 
-    <pre>
-        _ |\_
-        \` ..\
-   __,.-" =__Y=
- ."        )
-_    /   ,    \/\_
-((____|    )_-\ \_-`
-jgs  `-----'`-----` `--`
-
-OTO GATO
-    </pre>
+            <div class="alunos-container">
+                <h1 class="alunos-title">Alunos e Notas</h1>
+                <br>
+                <form class="alunos-input">
+                    <div id="AlunoA">
+                        <input type="text" class="nome" value="Nome">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <p>teste</p>
 </body>
 </html>
