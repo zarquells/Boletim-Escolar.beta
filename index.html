@@ -8,154 +8,196 @@
     <link rel="preload" href="css/style.css" as="style">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <div class="header-container">    
             <img src="img/reference-js-icon.svg" id="js-icon">
-            <span class="squad-name font-squad-name">  <!-- span é mais fácil de manipular sem prejudicar outros elementos -->
-                Example
-              Squad
-              Name
+
+            <span class="squad-name font-squad-name">
+                Squad
+                Yume
+                Neko
             </span>
         </div>
     </header>
+
     <main>
         <div class="main-contaneir">
             <div class="descricao-contaneir">
                 <h1 class="descricao title"> Descrição do <br> Projeto </h1>
                 <br>
+
                 <p class="descricao-text">
                     Tabela dinâmica feita com JavaScript para <br> calcular as médias finais de 5 alunos da <br> Turma X, professor J, Matéria Y. <br>
                     Insira os dados dinâmicos de cada aluno como <br> nome, nota p/ bimestre e faltas totais.
                 </p>
             </div>
             
-            <div class="cadastro-contaneir">
-                <h1 class="cadastro title">Cadastro Turma</h1>
-                <br>
-                <form class="cadastro input">
-                    <label for="input-turma">Nome da Turma:</label>
-                    <input type="text" id="input-turma">
-                    <br>
-                    <label for="input-professor">Professor:</label>
-                    <input type="text" id="input-professor">
-                    <br>
-                    <label for="input-UC">Un. Curricular:</label>
-                    <input type="text" id="input-UC">
-                    <br> <!-- (opcional) -->
-                    <button type="button" onclick="">Go !</button> <!-- Intenção de aparecer o nome da turma posteriormente no resultado... -->
-                </form>
+            <div class="logo-contaneir">
+                <img src="img/sailor-moon.png" id="logo-icon" width="100px">
+                <span class="squad-name font-squad-name"> 
+                    Squad
+                    Yume
+                    Neko
+                </span>
             </div>
 
             <div class="alunos-container">
-                <h1 class="alunos title">Alunos e Notas</h1>
+                <h1 class="alunos title"> Alunos e Notas </h1>
                 <br>
-                <form class="alunos input">
 
+                <form class="alunos input">
                     <!-- ALUNO 1 -->
                     <div id="AlunoA">
-                        <input type="text"   class="nome"  placeholder="Aluno A">
-                        <input type="number" class="nota1" placeholder="Nota 1A" min="0" max="100">
-                        <input type="number" class="nota2" placeholder="Nota 2A" min="0" max="100">
-                        <input type="number" class="nota3" placeholder="Nota 3A" min="0" max="100">
-                        <input type="number" class="nota4" placeholder="Nota 4A" min="0" max="100">
-                        <input type="number" class="faltas"placeholder="FaltasA" min="0" max="200"> <!-- Só há 200 dias letivos num ano rsrs -->
+                        <input type="text"   class="nome"   placeholder="Aluno A">
+                        <input type="number" class="nota1"  placeholder="Nota 1A" min="0" max="100">
+                        <input type="number" class="nota2"  placeholder="Nota 2A" min="0" max="100">
+                        <input type="number" class="nota3"  placeholder="Nota 3A" min="0" max="100">
+                        <input type="number" class="nota4"  placeholder="Nota 4A" min="0" max="100">
+                        <input type="number" class="faltas" placeholder="FaltasA" min="0" max="200">
+                        <!-- P.S: Só há 200 dias letivos num ano rsrs -->
                     </div>
 
                     <!-- ALUNO 2 -->
                     <div id="AlunoB">
-                        <input type="text"   class="nome"  placeholder="Aluno B">
-                        <input type="number" class="nota1" placeholder="Nota 1B" min="0" max="100">
-                        <input type="number" class="nota2" placeholder="Nota 2B" min="0" max="100">
-                        <input type="number" class="nota3" placeholder="Nota 3B" min="0" max="100">
-                        <input type="number" class="nota4" placeholder="Nota 4B" min="0" max="100">
-                        <input type="number" class="faltas"placeholder="FaltasB" min="0" max="200">
+                        <input type="text"   class="nome"   placeholder="Aluno B">
+                        <input type="number" class="nota1"  placeholder="Nota 1B" min="0" max="100">
+                        <input type="number" class="nota2"  placeholder="Nota 2B" min="0" max="100">
+                        <input type="number" class="nota3"  placeholder="Nota 3B" min="0" max="100">
+                        <input type="number" class="nota4"  placeholder="Nota 4B" min="0" max="100">
+                        <input type="number" class="faltas" placeholder="FaltasB" min="0" max="200">
                     </div>
 
                     <!-- ALUNO 3 -->
                     <div id="AlunoC">
-                        <input type="text"   class="nome"  placeholder="Aluno C">
-                        <input type="number" class="nota1" placeholder="Nota 1C" min="0" max="100">
-                        <input type="number" class="nota2" placeholder="Nota 2C" min="0" max="100">
-                        <input type="number" class="nota3" placeholder="Nota 3C" min="0" max="100">
-                        <input type="number" class="nota4" placeholder="Nota 4C" min="0" max="100">
-                        <input type="number" class="faltas"placeholder="FaltasC" min="0" max="200">
+                        <input type="text"   class="nome"   placeholder="Aluno C">
+                        <input type="number" class="nota1"  placeholder="Nota 1C" min="0" max="100">
+                        <input type="number" class="nota2"  placeholder="Nota 2C" min="0" max="100">
+                        <input type="number" class="nota3"  placeholder="Nota 3C" min="0" max="100">
+                        <input type="number" class="nota4"  placeholder="Nota 4C" min="0" max="100">
+                        <input type="number" class="faltas" placeholder="FaltasC" min="0" max="200">
                     </div>
 
                     <!-- ALUNO 4 -->
                     <div id="AlunoD">
-                        <input type="text"   class="nome"  placeholder="Aluno D">
-                        <input type="number" class="nota1" placeholder="Nota 1D" min="0" max="100">
-                        <input type="number" class="nota2" placeholder="Nota 2D" min="0" max="100">
-                        <input type="number" class="nota3" placeholder="Nota 2D" min="0" max="100">
-                        <input type="number" class="nota4" placeholder="Nota 4D" min="0" max="100">
-                        <input type="number" class="faltas"placeholder="FaltasD" min="0" max="200">
+                        <input type="text"   class="nome"   placeholder="Aluno D">
+                        <input type="number" class="nota1"  placeholder="Nota 1D" min="0" max="100">
+                        <input type="number" class="nota2"  placeholder="Nota 2D" min="0" max="100">
+                        <input type="number" class="nota3"  placeholder="Nota 2D" min="0" max="100">
+                        <input type="number" class="nota4"  placeholder="Nota 4D" min="0" max="100">
+                        <input type="number" class="faltas" placeholder="FaltasD" min="0" max="200">
                     </div>
 
                     <!-- ALUNO 5 -->
                     <div id="AlunoE">
-                        <input type="text"   class="nome"  placeholder="Aluno E">
-                        <input type="number" class="nota1" placeholder="Nota 1E" min="0" max="100">
-                        <input type="number" class="nota2" placeholder="Nota 2E" min="0" max="100">
-                        <input type="number" class="nota3" placeholder="Nota 3E" min="0" max="100">
-                        <input type="number" class="nota4" placeholder="Nota 4E" min="0" max="100">
-                        <input type="number" class="faltas"placeholder="FaltasE" min="0" max="200">
+                        <input type="text"   class="nome"   placeholder="Aluno E">
+                        <input type="number" class="nota1"  placeholder="Nota 1E" min="0" max="100">
+                        <input type="number" class="nota2"  placeholder="Nota 2E" min="0" max="100">
+                        <input type="number" class="nota3"  placeholder="Nota 3E" min="0" max="100">
+                        <input type="number" class="nota4"  placeholder="Nota 4E" min="0" max="100">
+                        <input type="number" class="faltas" placeholder="FaltasE" min="0" max="200">
                     </div>
                 </form>
+
                 <span>
-                    <h4>1º Bim</h4> <h4>2º Bim</h4> <h4>3º Bim</h4> <h4>4º Bim</h4> <h4>Faltas</h4> <!-- Personalização exclusiva do <h4> para esta descrição T_T-->
+                    <!-- Personalização exclusiva do <h4> para esta descrição T_T-->
+                    <h4> 1º Bim </h4> <h4> 2º Bim </h4> <h4> 3º Bim </h4> <h4> 4º Bim </h4> <h4> Faltas </h4>
                 </span>
+
+                <button id="button-calculo"> Go ! </button>
             </div>
 
             <div class="resultado-contaneir">
-                <h1 class="resultado title">Resultado Final</h1>
+                <h1 class="resultado title"> Resultado Final </h1>
                 <br>
+
                 <form class="resultado-output">
-                    <h3>Aluno A: </h3>                                   <!-- Substituir Aluno A pelo Nome dado ao Aluno anteriomente -->
-                    <output id="resultado-alunoA"> reprovado(a)</output>
+                    <!-- Substituir Aluno X pelo NOME dado ao Aluno anteriomente -->
+                    <h3> Aluno A: </h3>                                  
+                    <output id="resultado-alunoA">  </output>
+                    <output id="media-alunoA">      </output>
                     <br>
 
-                    <h3>Aluno B: </h3>
-                    <output id="resultado-alunoB"></output>
+                    <h3> Aluno B: </h3>
+                    <output id="resultado-alunoB">  </output>
+                    <output id="media-alunoB">      </output>
                     <br>
 
-                    <h3>Aluno C: </h3>
-                    <output id="resultado-alunoC"></output>
+                    <h3> Aluno C: </h3>
+                    <output id="resultado-alunoC">  </output>
+                    <output id="media-alunoC">      </output>
                     <br>
 
-                    <h3>Aluno D: </h3>
-                    <output id="resultado-alunoD"></output>
+                    <h3> Aluno D: </h3>
+                    <output id="resultado-alunoD">  </output>
+                    <output id="media-alunoD">      </output>
                     <br>
 
-                    <h3>Aluno E: </h3>
-                    <output id="resultado-alunoE"></output>
+                    <h3> Aluno E: </h3>
+                    <output id="resultado-alunoE">  </output>
+                    <output id="media-alunoE">      </output>
                     <br>
 
-                    <button type="button" onclick="">Download </button> <!-- Intenção de fazer o download txt... -->
+                </form>
+
+                <span>
+                    <h4> Situação Final </h4>
+                    <h4> Média          </h4>
+                </span>
+            </div>
+
+            <div class="medias-turma-contaneir">
+                <form class="resultado-output">
+                    <h3> Média Geral:            </h3>                                  
+                    <output id="media-geral"> 80.20 </output>
+                    <br>
+
+                    <h3> Alunos Abaixo da Média: </h3>
+                    <output id="nome-">             </output>
+                    <output id="media-alunoB">      </output>
+                    <br>
+
                 </form>
             </div>
+
         </div>
     </main>
+
     <footer>
         <div class="footer-container">    
             <h2>Agradecemos a visita em nosso site!</h2>
-            <p>Lorem ipsum dolor, sit amet <br> consectetur adipisicing elit </p>
+            <p>
+                Este projeto foi feito com <br> 
+                muito esforço e amor,      <br> 
+                espera que tenham gostado. 
+            </p>
             <br>
 
             <h2>Redes Sociais:</h2>
-            <p> Github: LINK LINK <br> LinkedIn: LINK LINK <br> Instagram: LINK LINK </p>
+            <p> 
+                Github:    LINK LINK <br>
+                LinkedIn:  LINK LINK <br> 
+                Instagram: LINK LINK 
+            </p>
             <br>
 
             <h2>Créditos:</h2>
-            <p>Giovanna <br> Érica <br> Senai </p>
+            <p>
+                Giovanna Santos <br>
+                Érica Lelis     <br>
+                Senai Suíço-Brasileiro
+            </p>
             <br>
             
             <span class="squad-name font-squad-name">
-                Example
-              Squad
-              Name
+                Squad
+                Yume
+                Neko  
             </span>
         </div>
+
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
